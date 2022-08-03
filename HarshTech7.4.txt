@@ -19722,7 +19722,7 @@ local Section = Tab:NewSection("Join Our Discord if you found any bug")
 local Section = Tab:NewSection("Join Our discord if you found any script not working")
 
 Section:NewButton("Copy Discord link", "Discord", function()
-setclipboard("https://discord.gg/Uv6tgXqP5g")
+setclipboard("https://discord.gg/fKDX7jwj5M")
 end)
 
 --Moving Tab--
