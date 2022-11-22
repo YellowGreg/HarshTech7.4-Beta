@@ -59,23 +59,23 @@ local tween = TweenService:Create(loadingRing, tweenInfo, {Rotation = 360})
 tween:Play()
  
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4."
+textLabel.Text = "Loading HarshTechV7.4 Beta."
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4.."
+textLabel.Text = "Loading HarshTechV7.4 Beta.."
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4..."
+textLabel.Text = "Loading HarshTechV7.4 Beta..."
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4"
+textLabel.Text = "Loading HarshTechV7.4 Beta"
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4."
+textLabel.Text = "Loading HarshTechV7.4 Beta."
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4.."
+textLabel.Text = "Loading HarshTechV7.4 Beta.."
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4..."
+textLabel.Text = "Loading HarshTechV7.4 Beta..."
 wait(0.5)
-textLabel.Text = "Loading HarshTechV7.4"
+textLabel.Text = "Loading HarshTechV7.4 Beta"
 wait(1)
-textLabel.Text = "HarshTech7.4 Has Been Loaded"
+textLabel.Text = "HarshTech7.4 Beta Has Been Loaded"
 
 wait(2)  -- Force screen to appear for a minimum number of seconds
 if not game:IsLoaded() then
@@ -105,7 +105,7 @@ Duration = 20
 })
 
 --Script/Tabs--
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/gui-maker/main/GUI%20make"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI%20make"))()
 local Window = Library.CreateLib("HarshTech7.4 Beta")
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Welcome User To HarshTech V7.4")
