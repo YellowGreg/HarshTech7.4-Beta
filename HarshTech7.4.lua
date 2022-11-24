@@ -105,19 +105,19 @@ Duration = 20
 })
 
 --Script/Tabs--
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/AFGui/main/GUI%20make"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("HarshTech7.4 Beta")
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Welcome User To HarshTech V7.4")
-local Section = Tab:NewSection("MMSVon: I love anime!!!!! :)")
+local Section = Tab:NewSection("MMSVon: I love anime!!! :)")
 local Section = Tab:NewSection("Note: Some GUI Need To Function In The Real Game")
 local Section = Tab:NewSection("Feature: Clean Tab and, More Scripts")
 local Section = Tab:NewSection("Note: We are adding old and new Scripts, and gui")
 local Section = Tab:NewSection("Scripts")
 Section:NewButton("Dex 2.0.0", "Better then dex 4 if your in mobile", function()
 loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
-end)
-
+end) 
+ 
 Section:NewButton("Dex 4", "dark mode i guess", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/loglizzy/dexV4/main/main.lua'))()
 end)
